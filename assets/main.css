@@ -1,0 +1,56 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #FFBAD2;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#header {
+	position: fixed;
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 3%;
+}
+
+#header img {
+	width: 10%;
+	cursor: pointer;
+}
+
+#header ul {
+	list-style: none;
+}
+
+#header li {
+	display: inline;
+	margin-right: 5%;
+	color: #FFBAD2;
+	font-size: 130%;
+	cursor: pointer;
+}
+
+#about-section {
+	position: absolute;
+	height: auto;
+	width: 100%;
+	top: 100%;	
+	background-color: #FFBAD2;
+	text-align: center;
+	padding: 2%;
+	color: #fff;
+}
+
+#about-section p {
+	margin-left: 25%;
+	line-height: 30px;
+	width: 50%;
+}
